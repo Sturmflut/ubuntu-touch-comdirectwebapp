@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=comdirectwebapp
+Comment=Webapp for comdirect online banking
+Type=Application
+Icon=comdirectwebapp.png
+Exec=webapp-container --store-session-cookies --webappUrlPatterns=https?://mobile.comdirect.de/* https://mobile.comdirect.de/;ver=fp/cp/ssonl %u
+Terminal=false
+X-Ubuntu-Touch=true
+
