@@ -1,7 +1,7 @@
 {
     "architecture": "all",
     "description": "Online banking webapp for german comdirect bank",
-    "framework": "ubuntu-sdk-14.10-dev2",
+    "framework": "ubuntu-sdk-15.04",
     "hooks": {
         "comdirectwebapp": {
             "apparmor": "comdirectwebapp.apparmor",
@@ -11,5 +11,5 @@
     "maintainer": "Sturm Flut <sturmflut@lieberbiber.de>",
     "name": "com.ubuntu.developer.sturmflut.comdirectwebapp",
     "title": "comdirect Banking",
-    "version": "0.3"
+    "version": "0.3.1"
 }
